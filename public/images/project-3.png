@@ -1,0 +1,53 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="purpleGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DDD6FE;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#purpleGrad3)" />
+
+  <!-- Mobile phone mockup -->
+  <rect x="250" y="50" width="100" height="180" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2" rx="15" />
+
+  <!-- Phone screen -->
+  <rect x="260" y="70" width="80" height="140" fill="rgba(255,255,255,0.2)" rx="8" />
+
+  <!-- App header -->
+  <rect x="265" y="75" width="70" height="20" fill="rgba(255,255,255,0.3)" rx="4" />
+  <text x="300" y="89" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" text-anchor="middle">Fitness Tracker</text>
+
+  <!-- Stats display -->
+  <circle cx="285" cy="130" r="15" fill="rgba(255,255,255,0.3)" />
+  <text x="285" y="135" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">12K</text>
+  <text x="285" y="150" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">Steps</text>
+
+  <circle cx="315" cy="130" r="15" fill="rgba(255,255,255,0.3)" />
+  <text x="315" y="135" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">450</text>
+  <text x="315" y="150" font-family="Arial, sans-serif" font-size="6" fill="white" text-anchor="middle">Calories</text>
+
+  <!-- Activity chart -->
+  <rect x="270" y="165" width="60" height="30" fill="rgba(255,255,255,0.2)" rx="4" />
+  <polyline points="275,185 285,175 295,180 305,170 315,175 325,165" stroke="rgba(255,255,255,0.8)" stroke-width="1" fill="none" />
+
+  <!-- Title and description -->
+  <text x="300" y="280" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Fitness Tracker</text>
+  <text x="300" y="310" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">Mobile Workout Companion</text>
+
+  <!-- Feature badges -->
+  <rect x="150" y="340" width="80" height="25" fill="rgba(255,255,255,0.2)" rx="12" />
+  <text x="190" y="356" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">React Native</text>
+
+  <rect x="240" y="340" width="60" height="25" fill="rgba(255,255,255,0.2)" rx="12" />
+  <text x="270" y="356" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">Firebase</text>
+
+  <rect x="310" y="340" width="70" height="25" fill="rgba(255,255,255,0.2)" rx="12" />
+  <text x="345" y="356" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">TypeScript</text>
+
+  <!-- Decorative elements -->
+  <circle cx="120" cy="120" r="25" fill="rgba(255,255,255,0.1)" />
+  <circle cx="480" cy="320" r="20" fill="rgba(255,255,255,0.15)" />
+</svg>
