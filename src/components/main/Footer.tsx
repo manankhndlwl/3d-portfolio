@@ -31,12 +31,12 @@ const Footer: FC = () => {
       label: 'GitHub',
     },
     {
-      href: 'https://linkedin.com/in/manan-khandelwal-327836167',
+      href: 'https://linkedin.com/in/mnnkhndlwl',
       icon: <FaLinkedin className="w-5 h-5" />,
       label: 'LinkedIn',
     },
     {
-      href: 'https://leetcode.com/Grx',
+      href: 'https://leetcode.com/u/Grx_9/',
       icon: <FaTwitter className="w-5 h-5" />,
       label: 'LeetCode',
     },

@@ -43,42 +43,43 @@ export function BlogsSection() {
   const [selectedBlog, setSelectedBlog] = useState<null | (typeof blogs)[0]>(null)
 
   return (
-    <section id="blogs" className="w-full py-12 dark:bg-neutral-950">
-      <div className="mx-auto max-w-5xl px-4">
-        <h2 className="mb-8 text-3xl font-bold text-center text-zinc-800 dark:text-zinc-100">
-          Blogs
-        </h2>
+    <></>
+    // <section id="blogs" className="w-full py-12 dark:bg-neutral-950">
+    //   <div className="mx-auto max-w-5xl px-4">
+    //     <h2 className="mb-8 text-3xl font-bold text-center text-zinc-800 dark:text-zinc-100">
+    //       Blogs
+    //     </h2>
 
-        <div className="grid gap-4">
-          {blogs.map((blog) => (
-            <BlogTile
-              key={blog.id}
-              title={blog.title}
-              excerpt={blog.excerpt}
-              onRead={() => setSelectedBlog(blog)}
-            />
-          ))}
-        </div>
-      </div>
+    //     <div className="grid gap-4">
+    //       {blogs.map((blog) => (
+    //         <BlogTile
+    //           key={blog.id}
+    //           title={blog.title}
+    //           excerpt={blog.excerpt}
+    //           onRead={() => setSelectedBlog(blog)}
+    //         />
+    //       ))}
+    //     </div>
+    //   </div>
 
-      <Dialog open={!!selectedBlog} onOpenChange={() => setSelectedBlog(null)}>
-        <DialogContent className="max-w-[95vw] sm:max-w-[90vw] max-h-[90vh] overflow-y-auto p-6 rounded-lg bg-white dark:bg-neutral-900">
-          {selectedBlog && (
-            <>
-              <DialogHeader className="sticky top-0 bg-white dark:bg-neutral-900 z-10 pb-4 border-b border-zinc-200 dark:border-zinc-700">
-                <DialogTitle className="text-2xl font-bold text-zinc-800 dark:text-zinc-100">
-                  {selectedBlog.title}
-                </DialogTitle>
-              </DialogHeader>
-              <div className="mt-6 prose prose-zinc dark:prose-invert max-w-none">
-                <p className="text-base text-zinc-600 dark:text-zinc-300 leading-relaxed">
-                  {selectedBlog.content}
-                </p>
-              </div>
-            </>
-          )}
-        </DialogContent>
-      </Dialog>
-    </section>
+    //   <Dialog open={!!selectedBlog} onOpenChange={() => setSelectedBlog(null)}>
+    //     <DialogContent className="max-w-[95vw] sm:max-w-[90vw] max-h-[90vh] overflow-y-auto p-6 rounded-lg bg-white dark:bg-neutral-900">
+    //       {selectedBlog && (
+    //         <>
+    //           <DialogHeader className="sticky top-0 bg-white dark:bg-neutral-900 z-10 pb-4 border-b border-zinc-200 dark:border-zinc-700">
+    //             <DialogTitle className="text-2xl font-bold text-zinc-800 dark:text-zinc-100">
+    //               {selectedBlog.title}
+    //             </DialogTitle>
+    //           </DialogHeader>
+    //           <div className="mt-6 prose prose-zinc dark:prose-invert max-w-none">
+    //             <p className="text-base text-zinc-600 dark:text-zinc-300 leading-relaxed">
+    //               {selectedBlog.content}
+    //             </p>
+    //           </div>
+    //         </>
+    //       )}
+    //     </DialogContent>
+    //   </Dialog>
+    // </section>
   )
 }

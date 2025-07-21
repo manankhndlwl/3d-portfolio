@@ -117,11 +117,9 @@ const ContactUs: FC = () => {
               <div className="space-y-5 text-foreground">
                 <div className="flex items-center gap-3">
                   <FaEnvelope className="text-primary text-lg" />
-                  <span className="text-sm font-medium select-text">
-                    khandelwalmanan05@gmail.com
-                  </span>
+                  <span className="text-sm font-medium select-text">mnnkhndlwl24@gmail.com</span>
                   <button
-                    onClick={() => copyToClipboard('khandelwalmanan05@gmail.com', 'Email')}
+                    onClick={() => copyToClipboard('mnnkhndlwl24@gmail.com', 'Email')}
                     className="text-muted-foreground hover:text-primary transition"
                     aria-label="Copy email"
                   >

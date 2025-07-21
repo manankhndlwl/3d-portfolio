@@ -58,7 +58,7 @@ const Skills = () => {
                 index={index}
                 className="group-hover:scale-110 z-10 transition-transform duration-200"
               />
-              <span className="absolute top-full mt-2 text-xs font-medium text-foreground bg-background px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none shadow z-50">
+              <span className="absolute bottom-full mb-2 left-1/2 transform -translate-x-1/2 text-xs font-medium text-foreground bg-background px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none shadow z-50 whitespace-nowrap">
                 {skill.skill_name}
               </span>
               <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-gradient-to-t from-primary/10 to-transparent" />

@@ -17,38 +17,29 @@ const projectsData = [
   {
     title: 'GroGo',
     description:
-      'High-performing grocery delivery app using React Native with Mapbox integration, Stripe payment gateway, and microservices architecture with RabbitMQ communication.',
-    imageURL: '/grogo.png',
-    github: 'https://github.com/mnnkhndlwl/GroGo',
-    live: 'https://github.com/mnnkhndlwl/GroGo',
+      'Grocery delivery app using React Native with Mapbox, Stripe, and microservices architecture with RabbitMQ communication.',
+    imageURL: '/gorgo.png',
+    github: 'https://github.com/mnnkhndlwl/kharido',
+    live: 'https://github.com/mnnkhndlwl/kharido',
     icon: <IconClipboardCopy className="h-4 w-4 text-muted-foreground" />,
   },
   {
     title: 'CompilerXpress - Online IDE',
     description:
-      'Innovative online IDE built with Node.js, Express.js, React.js, and Redux Toolkit. Supports multiple programming languages including C, C++, Java, and Python with dark/light mode.',
-    imageURL: '/compilerxpress.png',
+      'Innovative online IDE built with Node.js, Express.js, React.js, and Redux Toolkit. ',
+    imageURL: '/compiler.png',
     github: 'https://github.com/mnnkhndlwl/CompilerXpress',
     live: 'https://github.com/mnnkhndlwl/CompilerXpress',
     icon: <IconFileBroken className="h-4 w-4 text-muted-foreground" />,
   },
   {
-    title: 'BPIT Student Management System',
+    title: 'Ludo Game',
     description:
-      'Collaborated with seniors to build and deploy backend of attendance app with Django and Apache web server. Built Python script to parse IPU result PDFs and store in PostgreSQL.',
-    imageURL: '/bpit-sms.png',
-    github: 'https://github.com/mnnkhndlwl/BPIT-SMS',
-    live: 'https://github.com/mnnkhndlwl/BPIT-SMS',
+      'Build a ludo game using react native and react redux with reanimated and typescript',
+    imageURL: '/image.png',
+    github: 'https://github.com/mnnkhndlwl/ludo_game',
+    live: 'https://github.com/mnnkhndlwl/ludo_game',
     icon: <IconSignature className="h-4 w-4 text-muted-foreground" />,
-  },
-  {
-    title: 'Portfolio',
-    description:
-      'Modern portfolio built with Next.js, TailwindCSS, and ShadCN, showcasing projects and professional experience.',
-    imageURL: '/portfolio-project.png',
-    github: 'https://github.com/mnnkhndlwl/portfolio',
-    live: 'https://manan-khandelwal.vercel.app/',
-    icon: <IconTableColumn className="h-4 w-4 text-muted-foreground" />,
   },
 ]
 

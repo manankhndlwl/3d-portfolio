@@ -29,11 +29,17 @@ export const timelineData: TimelineItem[] = [
     location: 'Remote',
     date: 'Jul 2024 - Present',
     imageURL: '/badho-logo.png',
-    description: 'Building scalable e-commerce solutions for buyers and sellers.',
+    description:
+      'Building scalable solutions for over 10+ Lakh retailers , distributors and brands across India.',
     achievements: [
       'Built the whole KYC verification feature for the Badho buyer and seller app allowing users to get verified seamlessly',
-      'Built the purchase order dispatch feature for the Badho seller app, allowing distributors to have more seamless order acceptance and delivering experience',
+      'Built the purchase order dispatch feature for the Badho seller app, allowing distributors to have more seamless order acceptance and delivering experience while also allowing them to have more control over their orders',
       'Implemented push notifications for the Badho buyer, seller and sathi app with Firebase cloud messaging service, AWS SQS and Hasura event triggers',
+      'Implemented the main payments screen for the Badho seller app, allowing them to have more control over their payments and also allowing them to have more control over their orders',
+      'Improved the user experience for Badho buyer app to place the order by showing the different prices as per the quantity and showing various policies for the order',
+      'Created the dynamic header component in the Badho buyer app whose ui can be controlled from the backend',
+      'Added funtionality to hide/show header and bottom tab bar in badho buyer app as the user scrolls',
+      'Check out the live project at https://play.google.com/store/search?q=badho+seller&c=apps',
     ],
     icon: <FaBriefcase className="w-6 h-6 text-primary" />,
     companyIcon: <FaBuilding className="w-8 h-8 text-orange-500" />,
@@ -50,6 +56,7 @@ export const timelineData: TimelineItem[] = [
     achievements: [
       'Developed an employee master sign-in feature for support users, allowing them to log into ground staff accounts and resolve issues through a master sign-in mode',
       'Developed the "My Sellers" feature for the Badho Buyer app, enhancing user experience by providing information about sellers and nearby sellers',
+      'Check out the live project at https://play.google.com/store/search?q=badho+buyer&c=apps',
       'Used React Native, Node.js, Hasura, GraphQL, and PostgreSQL',
     ],
     icon: <FaBriefcase className="w-6 h-6 text-primary" />,
@@ -67,7 +74,10 @@ export const timelineData: TimelineItem[] = [
     achievements: [
       'Collaborated with a cross-functional team to enhance the checkout feature on the Dochomoe platform',
       'Developed and implemented an intuitive admin dashboard, revolutionizing product management by enabling seamless addition, deletion, and monitoring of products',
-      'Utilized Node.js, React.js, Express.js, MongoDB, Next.js, Material UI, and Git',
+      'Integrated the phonepe payment gateway for the Dochomoe platform, allowing users to pay for their orders seamlessly',
+      'Integrated shiprocket shipping API for the Dochomoe platform, allowing users to track their orders and get shipping updates',
+      'Utilized Node.js, React.js, Express.js, MongoDB, Next.js, Material UI, Redux toolkit and Git',
+      'Check out the live project at https://https://dochomoeo.com/',
     ],
     icon: <FaBriefcase className="w-6 h-6 text-primary" />,
     companyIcon: <FaBuilding className="w-8 h-8 text-green-500" />,
@@ -77,15 +87,6 @@ export const timelineData: TimelineItem[] = [
 export const TimelineElement: FC<{ item: TimelineItem; index: number }> = ({ item, index }) => (
   <div className="space-y-6" key={index}>
     <div className="flex items-center gap-4">
-      {item.type === 'work' && (
-        <Image
-          src={item.imageURL}
-          alt={`${item.company} Logo`}
-          width={48}
-          height={48}
-          className="rounded-md shadow bg-muted p-1"
-        />
-      )}
       <div>
         <h3 className="text-lg font-semibold text-foreground">{item.title}</h3>
         <p className="text-sm text-muted-foreground">

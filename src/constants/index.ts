@@ -17,11 +17,10 @@ export const skills: Skill[] = [
   { skill_name: 'Node.js', Image: '/node-js.png', width: 80, height: 80 },
   { skill_name: 'Express.js', Image: '/express.png', width: 80, height: 80 },
   { skill_name: 'PostgreSQL', Image: '/postger.png', width: 70, height: 70 },
-  { skill_name: 'MongoDB', Image: '/mysql.png', width: 70, height: 70 },
+  { skill_name: 'MongoDB', Image: '/mongo.png', width: 70, height: 70 },
   { skill_name: 'GraphQL', Image: '/graphql.png', width: 80, height: 80 },
   { skill_name: 'Hasura', Image: '/graphql.png', width: 80, height: 80 },
   { skill_name: 'Docker', Image: '/docker.webp', width: 70, height: 70 },
-  { skill_name: 'AWS', Image: '/aws.png', width: 70, height: 70 },
   { skill_name: 'AWS SQS', Image: '/aws.png', width: 70, height: 70 },
   { skill_name: 'Firebase', Image: '/firebase.png', width: 70, height: 70 },
   { skill_name: 'Material UI', Image: '/tailwind.png', width: 80, height: 80 },
@@ -32,7 +31,7 @@ export const Socials = [
   {
     name: 'LinkedIn',
     src: '/linkedin.svg',
-    link: 'https://linkedin.com/in/manan-khandelwal-327836167',
+    link: 'https://linkedin.com/in/mnnkhndlwl',
   },
   {
     name: 'GitHub',
@@ -42,7 +41,7 @@ export const Socials = [
   {
     name: 'LeetCode',
     src: '/leetcode.svg',
-    link: 'https://leetcode.com/Grx',
+    link: 'https://leetcode.com/u/Grx_9/',
   },
 ]
 
@@ -53,7 +52,7 @@ export const PersonalInfo = {
   email: 'khandelwalmanan05@gmail.com',
   phone: '+919810585686',
   location: 'Delhi, India',
-  linkedin: 'https://linkedin.com/in/manan-khandelwal-327836167',
+  linkedin: 'https://linkedin.com/in/mnnkhndlwl',
   github: 'https://github.com/mnnkhndlwl',
-  leetcode: 'https://leetcode.com/Grx',
+  leetcode: 'https://leetcode.com/u/Grx_9/',
 }
